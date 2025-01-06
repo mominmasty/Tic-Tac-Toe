@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    color: rgb(44,41,44);
+    background-color: rgb(247,239,247);
+}
+#main-header{
+    background-color:purple !important;
+    color: white !important;
+     padding: 2rem 5%;
+    text-align: center;
+}
+.btn{
+    font: inherit;
+    padding:.5rem 1.5rem;
+    background-color: purple;
+    border: 1px solid purple;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn-alt{
+    background-color: transparent;
+    border-color: transparent ;
+    color: rgb(140,0,255);
+}
+btn:hover{
+    background-color: rgb(79,10,190);
+    border-color:rgb(79,10,290) ;
+}
+.btn-alt:hover{
+    background-color: rgb(232, 205, 252);
+    border-color: transparent ;
+
+}
+#game-configuration{
+    width: 90%;
+    max-width:40rem;
+    margin: 3rem auto;
+    text-align: center; 
+}
+#game-configuration ol{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+#game-configuration ol li{
+    margin: 1rem;
+    padding: 1rem;
+    width: 50%;
+    background-color: rgb(243,227,255);
+    border-radius: 4px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+}
